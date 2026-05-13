@@ -1,3 +1,4 @@
+// Step 3: Modifying app.js for multi-file trigger.
 // Triggering Step 3 again with a fresh comment.document.addEventListener("DOMContentLoaded", () => {
   const activitiesList = document.getElementById("activities-list");
   const activitySelect = document.getElementById("activity");
