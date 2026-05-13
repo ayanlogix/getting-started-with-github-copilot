@@ -1,3 +1,4 @@
+// GitHub Copilot assisted: Enhanced participant display with sorted view
 // Finalizing Step 3 and 4 with a clean commit.
 // Step 3: Modifying app.js for multi-file trigger.
 // Triggering Step 3 again with a fresh comment.document.addEventListener("DOMContentLoaded", () => {

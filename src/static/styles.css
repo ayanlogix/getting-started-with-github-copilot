@@ -169,3 +169,12 @@ footer {
   padding: 2px 0;
   color: #555;
 }
+
+/* GitHub Copilot suggested: Improved activity card hover animation */
+.activity-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.activity-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
