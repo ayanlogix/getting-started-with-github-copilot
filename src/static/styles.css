@@ -1,3 +1,5 @@
+/* Finalizing Step 3 and 4 with a clean commit. */
+/* Step 3: Modifying styles.css for multi-file trigger. */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -166,4 +168,13 @@ footer {
 .participant-list li {
   padding: 2px 0;
   color: #555;
+}
+
+/* GitHub Copilot suggested: Improved activity card hover animation */
+.activity-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.activity-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
