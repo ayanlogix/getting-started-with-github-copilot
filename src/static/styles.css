@@ -142,3 +142,27 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participant info styles */
+.participant-details {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #444;
+}
+
+.participant-details summary {
+  cursor: pointer;
+  color: #0366d6;
+  padding: 4px 0;
+}
+
+.participant-list {
+  list-style: none;
+  padding: 4px 0 0 12px;
+  margin: 4px 0 0 0;
+}
+
+.participant-list li {
+  padding: 2px 0;
+  color: #555;
+}
