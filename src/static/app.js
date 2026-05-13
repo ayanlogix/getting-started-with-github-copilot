@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
       Object.entries(activities).forEach(([name, details]) => {
         const activityCard = document.createElement("div");
         activityCard.className = "activity-card";
-
+// trigger step 3
+        
         const spotsLeft = details.max_participants - details.participants.length;
 
         // Build participant info list
